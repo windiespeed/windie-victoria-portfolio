@@ -1,0 +1,58 @@
+.portfolio-card {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: var(--bg-light);
+    color: var(--text-dark);
+    cursor: pointer;
+}
+
+body.dark-theme .portfolio-card {
+    background: #1e1e1e;
+    color: var(--text-light);
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.thumbnail-bar {
+    display: flex;
+    overflow-x: auto;
+    gap: 0.5rem;
+    padding: 1rem 0;
+}
+
+.thumbnail-bar img {
+    height: 60px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: border 0.2s ease;
+}
+
+.thumbnail-bar img.active {
+    border-color: var(--primary-color);
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.masonry-gallery {
+    column-count: 3;
+    column-gap: 1rem;
+}
+
+.masonry-gallery .masonry-item {
+    break-inside: avoid;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.masonry-gallery img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}

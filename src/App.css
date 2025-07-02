@@ -1,0 +1,151 @@
+:root {
+    --primary-color: #00fbff;
+    --text-light: #ffffff;
+    --text-dark: #202020;
+    --bg-dark: #202020;
+    --bg-light: #e4e4e4;
+
+    --btn-bg-light: #00fbff;
+    --btn-bg-dark: #212529;
+
+    --btn-text-light: #000000;
+    --btn-text-dark: #ffffff;
+}
+
+body.light-theme {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+body.dark-theme {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+}
+
+.navbar-transparent {
+    background-color: transparent !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--primary-color) !important;
+}
+
+/* Footer default (light theme) */
+footer {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: var(--text-dark);
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Footer override for dark mode */
+body.dark-theme footer {
+    background-color: #1f1f1f;
+    color: var(--text-light);
+}
+
+/* Apply a global transition to major elements */
+body,
+nav,
+main,
+footer,
+.card,
+.navbar,
+.nav-link,
+.btn,
+h1,
+h2,
+h3,
+p {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+
+/*  this makes the theme button "float" in bottom right
+.theme-toggle-button {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1050;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+*/
+
+.theme-toggle-button {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1050;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: transparent;
+    /* for home */
+}
+
+/* Optional: fade-in mobile nav menu */
+.navbar-collapse.show {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* dark transparent bg */
+    backdrop-filter: blur(5px);
+    transition: background-color 0.3s ease;
+}
+
+main {
+    transition: padding-top 0.3s ease;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main {
+    flex: 1;
+}
+
+.btn-theme {
+    background-color: var(--btn-bg-light);
+    color: var(--btn-text-light);
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-theme .btn-theme {
+    background-color: var(--btn-bg-dark);
+    color: var(--btn-text-dark);
+}
+
+.btn-theme:hover {
+    filter: brightness(1.1);
+}
+
