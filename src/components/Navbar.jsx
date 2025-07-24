@@ -81,8 +81,8 @@ export default function Navbar() {
         </div>
       </nav>
 
-
-      {/* Floating Theme Toggle Button */}
+      {/*}
+      {/* Floating Theme Toggle Button 
       <button
         className="btn btn-theme theme-toggle-button"
         onClick={() => setDarkMode(!darkMode)}
@@ -90,6 +90,7 @@ export default function Navbar() {
       >
         <i className={`bi ${darkMode ? 'bi-sun' : 'bi-moon'}`}></i>
       </button>
+      */}
 
     </>
   );

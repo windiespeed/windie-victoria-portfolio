@@ -80,7 +80,7 @@ export default function Portfolio() {
 
       <div ref={loaderRef} className="text-center py-4 text-muted">Loading more...</div>
 
-      {/* Thumbnail Bar */}
+      {/* Thumbnail Bar 
       <div className="thumbnail-bar mt-4">
         {portfolioData[activeTab].map((item, i) => (
           <img
@@ -92,6 +92,7 @@ export default function Portfolio() {
           />
         ))}
       </div>
+      */}
 
       {/* Modal */}
       {selectedItem && (

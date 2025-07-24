@@ -21,7 +21,14 @@
             "image": "../public/assets/web design/web6.png"
         }
     ],
-    "Design": [
+    "UX/UI Design": [
+        {
+            "title": "Photography App Wire Frames",
+            "description": "",
+            "image": "../public/assets/UX/photoApp.jpg"
+        }
+    ],
+    "Graphic Design": [
         {
             "title": "Project 1",
             "description": "A sample project showcasing design work.",
