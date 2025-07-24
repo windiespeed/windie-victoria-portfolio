@@ -170,7 +170,7 @@ export default function Resume() {
             <div className="d-flex justify-content-between align-items-center mb-4 flex-column flex-md-row text-center text-md-start">
                 <h2 className="mb-3 mb-md-0">My Resume</h2>
                 <a
-                    href="public/assets/2025_resume.pdf"
+                    href="/assets/2025_resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-theme"

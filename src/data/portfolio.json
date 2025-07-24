@@ -3,88 +3,88 @@
         {
             "title": "Mississippi Coding Academies Mockup",
             "description": "An MCA web work project",
-            "image": "../public/assets/web design/web2.png"
+            "image": "/assets/web design/web2.png"
         },
         {
             "title": "Mississippi Coding Academies Mockup",
             "description": "An MCA web work project",
-            "image": "../public/assets/web design/web4.png"
+            "image": "../assets/web design/web4.png"
         },
         {
             "title": "Project 5",
             "description": "A sample project showcasing web work.",
-            "image": "../public/assets/web design/web5.png"
+            "image": "../assets/web design/web5.png"
         },
         {
             "title": "Project 6",
             "description": "A sample project showcasing web work.",
-            "image": "../public/assets/web design/web6.png"
+            "image": "../assets/web design/web6.png"
         }
     ],
     "UX/UI Design": [
         {
             "title": "Photography App Wire Frames",
             "description": "",
-            "image": "../public/assets/UX/photoApp.jpg"
+            "image": "../assets/UX/photoApp.jpg"
         }
     ],
     "Graphic Design": [
         {
             "title": "Project 1",
             "description": "A sample project showcasing design work.",
-            "image": "../public/assets/graphic design/design1.jpg"
+            "image": "../assets/graphic design/design1.jpg"
         },
         {
             "title": "Project 2",
             "description": "A sample project showcasing design work.",
-            "image": "../public/assets/graphic design/design2.jpg"
+            "image": "../assets/graphic design/design2.jpg"
         },
         {
             "title": "Project 3",
             "description": "A sample project showcasing design work.",
-            "image": "../public/assets/graphic design/design3.jpg"
+            "image": "../assets/graphic design/design3.jpg"
         },
         {
             "title": "Project 4",
             "description": "A sample project showcasing design work.",
-            "image": "../public/assets/graphic design/design4.jpg"
+            "image": "../assets/graphic design/design4.jpg"
         },
         {
             "title": "Project 5",
             "description": "A sample project showcasing design work.",
-            "image": "../public/assets/graphic design/design5.jpg"
+            "image": "../assets/graphic design/design5.jpg"
         },
         {
             "title": "Project 6",
             "description": "A sample project showcasing design work.",
-            "image": "../public/assets/graphic design/design6.jpg"
+            "image": "../assets/graphic design/design6.jpg"
         }
     ],
     "Photography": [
         {
             "title": "Project 1",
             "description": "A sample project showcasing photography work.",
-            "image": "../public/assets/photography/photo1.jpg"
+            "image": "../assets/photography/photo1.jpg"
         },
         {
             "title": "Project 2",
             "description": "A sample project showcasing photography work.",
-            "image": "../public/assets/photography/photo2.jpg"
+            "image": "../assets/photography/photo2.jpg"
         },
         {
             "title": "Project 3",
             "description": "A sample project showcasing photography work.",
-            "image": "../public/assets/photography/photo3.jpg"
+            "image": "../assets/photography/photo3.jpg"
         },
         {
             "title": "Project 4",
             "description": "A sample project showcasing photography work.",
-            "image": "../public/assets/photography/photo4.jpg"
+            "image": "../assets/photography/photo4.jpg"
         },
         {
             "title": "Project 5",
             "description": "A sample project showcasing photography work.",
-            "image": "../public/assets/photography/photo5.jpg"
+            "image": "../assets/photography/photo5.jpg"
         }
     ]
 }
