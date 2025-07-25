@@ -55,6 +55,8 @@ export default function Portfolio() {
     <div className="container py-5">
       <h2 className="text-center mb-4">My Portfolio</h2>
 
+      <p className="text-center mb-4">Please take a look at my work! For UX/UI design, I am working on getting every step of designing my FocusedLearning photography app uploaded. If you would like for me to send anything directly to you, please let me know!</p>
+
       {/* Tabs */}
       <div className="d-flex justify-content-center mb-4 flex-wrap gap-2">
         {categories.map((category) => (
