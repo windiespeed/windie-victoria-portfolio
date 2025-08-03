@@ -23,9 +23,10 @@
     ],
     "UX/UI Design": [
         {
-            "title": "Photography App Wire Frames",
-            "description": "",
-            "image": "../assets/UX/photoApp.jpg"
+            "title": "FocusedLearning App Design",
+            "description": "Full UX flow for FocusedLearning photography app.",
+            "image": "../assets/UX/photoApp.jpg",
+            "figmaEmbedUrl": "https://embed.figma.com/proto/YECKxuTSE7mV7yZblbYwMw/Windie-Speed---UI-UX-Photo-App?node-id=9818-3975&p=f&scaling=scale-down&content-scaling=fixed&page-id=6301%3A57&starting-point-node-id=9818%3A3975&embed-host=share"
         }
     ],
     "Graphic Design": [
